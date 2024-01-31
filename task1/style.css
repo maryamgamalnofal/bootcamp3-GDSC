@@ -1,0 +1,32 @@
+.parent{
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    width: 350px;
+}
+.div1{
+    height: 350px;
+    width: 350px;
+}
+.div1 img{
+    height: 100%;
+    width: 100%;
+}
+.div2{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top:100%;
+    transition-property: top;
+    transition-duration: 2s;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+
+}
+.div2 h2{
+    background-color: blueviolet;
+    margin-top: 0%;
+}
+.parent:hover .div2{
+    top:0;
+}
